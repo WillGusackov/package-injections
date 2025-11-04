@@ -1,14 +1,69 @@
+# PowerShell
+*.ps1
+*.psd1
+*.psm1
+
+# C
+*.o
+*.out
+*.exe
+*.dll
+*.lib
+*.pdb
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build artifacts
+build/
+obj/
+bin/
+Debug/
+Release/
+
+# Temporary files
+*.tmp
+*.bak
+*.log
+*.swp
+*.swo
+*.~*
+
+# Environment-specific files
+config/
+data/
+
+# Sensitive information
+secrets.json
+keys/
+certificates/
+
+# Windows-specific files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Visual Studio
+.vs/
+*.sln
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# CMake
 CMakeLists.txt.user
 CMakeCache.txt
-CMakeFiles
-CMakeScripts
-Testing
+CMakeFiles/
+CMakeScripts/
+Testing/
 Makefile
 cmake_install.cmake
 install_manifest.txt
 compile_commands.json
 CTestTestfile.cmake
-_deps
+_deps/
 CMakeUserPresets.json
 
 # CLion
